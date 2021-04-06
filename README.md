@@ -1,6 +1,6 @@
 # Pepcoding-Web-Dev 
 
-Day 1 : *1.Hello world </br>*
+Day 1 : </br>*1.Hello world </br>*
         *2.Even or Odd(if/else)</br>*
         *3.Largest of three numbers(is/else)</br>*
         *4.FizzBuzz(if/else & loop)</br>*
