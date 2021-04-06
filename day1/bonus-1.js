@@ -1,3 +1,4 @@
+//to find the nth term of ap using a , d and n 
 function ap(a, d, n) {
     return a + (n - 1) * d;
 }
