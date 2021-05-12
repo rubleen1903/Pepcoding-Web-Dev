@@ -1,14 +1,16 @@
 let ob = {
-    newObj: {
-        obj2: {
-          obj5: {
-            one: 1,
-          },
+    flavor: "vanilla",
+    topping: {
+        drizzle: "chocolava",
+        sprinkle: "choco-chips",
+    },
+    cone: {
+        type: "waffle",
+        crust: {
+        color: "dark",
+        texture: "soft",
         },
-      },
-      obj3: {
-        obj4: { two: 2 },
-      },
+    },
 };
   
 const flattenObj = (ob) => {
@@ -22,8 +24,6 @@ const flattenObj = (ob) => {
         if ((typeof ob[i]) === 'object') {
             const temp = flattenObj(ob[i]);
             for (const j in temp) {
-  
-                
                 result[i + '.' + j] = temp[j];
             }
         }
